@@ -1,3 +1,13 @@
+# macOS
+.DS_Store
+.env
+*.icloud
+
+# Large media files
+*.mkv
+*.mov
+*.mp4
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
