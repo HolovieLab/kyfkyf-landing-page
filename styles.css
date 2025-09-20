@@ -1,0 +1,314 @@
+/* Reset and Base Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Main Content */
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+main > section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+/* Kyf kyf default landscape styles */
+.background-color-green {
+    background: #446900;
+}
+
+.background-color-red {
+    background: #691100;
+}
+
+.introduction {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.introduction-logo {
+    width: 192px;
+}
+
+.introduction-tagline {
+    width: 576px;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.4px;
+}
+
+.chapter {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.chapter-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.chapter-header-number {
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.4px;
+}
+
+.chapter-header-title {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.6px;
+}
+
+.illustration-strip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.illustration-image {
+    width: 343px;
+    border-radius: 6px;
+}
+
+.mockup-image-and-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.mockup-image {
+    width: 372px;
+}
+
+.mockup-description {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.4px;
+    text-align: left;
+}
+
+.conclusion {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.conclusion-hashtag {
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.4px;
+}
+
+.conclusion-button-cta {
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+.conclusion-socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+/* Kyf kyf mobile portrait styles */
+@media (max-width: 768px) {
+    main {
+        height: 100%;
+        scroll-snap-type: none;
+    }
+
+    main > section {
+        scroll-snap-align: none;
+        scroll-snap-stop: normal;
+    }
+
+    .introduction {
+        gap: 42px;
+    }
+
+    .introduction-logo {
+        width: 128px;
+    }
+
+    .introduction-tagline {
+        width: 292px;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: -0.26px;
+    }
+
+    .chapter {
+        height: 100%;
+        gap: 42px;
+        padding: 64px 0px;
+    }
+
+    .chapter-header {
+        width: 274px;
+    }
+
+    .chapter-header-number {
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: -0.26px;
+    }
+
+    .chapter-header-title {
+        font-size: 34px;
+        line-height: 41px;
+        letter-spacing: 0.4px;
+    }
+
+    .illustration-strip {
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    .illustration-image {
+        width: 284px;
+    }
+
+    .mockup-image-and-description {
+        flex-direction: column;
+        gap: 42px;
+        margin-top: -86px;
+    }
+
+    .mockup-image {
+        width: 308px;
+    }
+
+    .mockup-description {
+        width: 294px;
+        gap: 28px;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: -0.26px;
+        text-align: center;
+    }
+
+    .conclusion {
+        gap: 42px;
+    }
+}
+
+/* Kyf kyf small mobile portrait styles */
+@media (max-width: 320px) {
+    .introduction-logo {
+        width: 108px;
+    }
+
+    .introduction-tagline {
+        width: 246px;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.21px;
+    }
+
+    .chapter {
+        gap: 32px;
+        padding: 48px 0px;
+    }
+
+    .chapter-header {
+        width: 246px;
+    }
+
+    .chapter-header-number {
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.21px;
+    }
+
+    .chapter-header-title {
+        font-size: 27px;
+        line-height: 33px;
+        letter-spacing: 0.32px;
+    }
+
+    .illustration-strip {
+        gap: 16px;
+    }
+
+    .illustration-image {
+        width: 225px;
+    }
+
+    .mockup-image-and-description {
+        gap: 32px;
+        margin-top: -64px;
+    }
+
+    .mockup-image {
+        width: 244px;
+    }
+
+    .mockup-description {
+        width: 266px;
+        gap: 23px;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.21px;
+    }
+
+    .conclusion-hashtag {
+        font-size: 27px;
+        line-height: 33px;
+        letter-spacing: 0.32px;
+    }
+}

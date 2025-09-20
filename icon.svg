@@ -1,0 +1,25 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_72_2080)">
+<rect width="1024" height="1024" fill="url(#paint0_linear_72_2080)"/>
+<circle cx="752" cy="512" r="120" fill="white" stroke="black" stroke-width="48"/>
+<circle cx="800" cy="512" r="96" fill="black"/>
+<circle cx="776" cy="488" r="24" fill="white"/>
+<circle cx="416" cy="512" r="120" fill="white" stroke="black" stroke-width="48"/>
+<circle cx="464" cy="512" r="96" fill="black"/>
+<circle cx="440" cy="488" r="24" fill="white"/>
+<path d="M753.861 368.012C832.532 369.008 896 433.092 896 512L895.988 513.861C894.992 592.532 830.908 656 752 656L750.139 655.988C672.087 655 609 591.913 608.012 513.861L608 512H560L559.988 513.861C558.992 592.532 494.908 656 416 656L414.139 655.988C336.087 655 273 591.913 272.012 513.861L272 512H176V608H128V464H280.194C299.963 408.071 353.302 368 416 368L417.861 368.012C479.752 368.796 532.231 408.625 551.804 464H616.194C635.963 408.071 689.302 368 752 368L753.861 368.012ZM416 416C362.981 416 320 458.981 320 512C320 565.019 362.981 608 416 608C469.019 608 512 565.019 512 512C512 458.981 469.019 416 416 416ZM752 416C698.981 416 656 458.981 656 512C656 565.019 698.981 608 752 608C805.019 608 848 565.019 848 512C848 458.981 805.019 416 752 416Z" fill="url(#paint1_linear_72_2080)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_72_2080" x1="512" y1="0" x2="512" y2="1024" gradientUnits="userSpaceOnUse">
+<stop stop-color="#333333"/>
+<stop offset="1" stop-color="#141414"/>
+</linearGradient>
+<linearGradient id="paint1_linear_72_2080" x1="512" y1="368" x2="512" y2="656" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8C00"/>
+<stop offset="1" stop-color="#FF5900"/>
+</linearGradient>
+<clipPath id="clip0_72_2080">
+<rect width="1024" height="1024" fill="white"/>
+</clipPath>
+</defs>
+</svg>
