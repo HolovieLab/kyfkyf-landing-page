@@ -160,16 +160,6 @@ main > section {
     gap: 32px;
 }
 
-.conclusion-button-cta {
-    margin-top: -8px;
-    margin-bottom: -8px;
-}
-
-.conclusion-button-cta-2 {
-    margin-top: -26px;
-    margin-bottom: -26px;
-}
-
 .conclusion-socials {
     display: flex;
     flex-direction: row;
