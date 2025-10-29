@@ -152,9 +152,22 @@ main > section {
     letter-spacing: 0.4px;
 }
 
+.conclusion-ctas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
 .conclusion-button-cta {
     margin-top: -8px;
     margin-bottom: -8px;
+}
+
+.conclusion-button-cta-2 {
+    margin-top: -26px;
+    margin-bottom: -26px;
 }
 
 .conclusion-socials {
@@ -245,6 +258,11 @@ main > section {
     .conclusion {
         gap: 42px;
     }
+
+    .conclusion-ctas {
+        flex-direction: column;
+        gap: 21px;
+    }
 }
 
 /* Kyf kyf small mobile portrait styles */
@@ -310,5 +328,9 @@ main > section {
         font-size: 27px;
         line-height: 33px;
         letter-spacing: 0.32px;
+    }
+
+    .conclusion-ctas {
+        gap: 16px;
     }
 }
